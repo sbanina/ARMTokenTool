@@ -39,11 +39,11 @@ Tips
 
   If you have a frequent combination of subscription/environment/user, create a shortcut for it with output set to "Clipboard". Then you'll just need to double-click the shortcut and possibly enter your password if the machine's credential cache has expired.
 
-  Create shortcut like this: \\scratch2\scratch\saban\ARMTokenApp\bin\ARMTokenApp.exe -env Production -outputMethod Clipboard -userId alias@microsoft.com -subscription asd-asd-adff-asdf-asdf
+  Create shortcut like this: ARMTokenApp.exe -env Production -outputMethod Clipboard -userId alias@live.com -subscription asd-asd-adff-asdf-asdf
 
   If desktop shortcuts aren't your style, create aliases in your enlistment! Alias something like "jwtNext" or "armtokennext" to prompt for test creds in NEXT and open in a new notepad
 
-  The alias value would look like this: "\\scratch2\scratch\saban\ARMTokenApp\bin\ARMTokenApp.exe -env Next -outputMethod TempFile"
+  The alias value would look like this: "ARMTokenApp.exe -env Next -outputMethod TempFile"
 
   Sometimes the AD sign-in prompt will try to be clever and log you in automatically. This can be painful to when you have multiple test accounts. ARMTokenTool can help!
 
